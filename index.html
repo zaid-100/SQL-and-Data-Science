@@ -1,1 +1,42 @@
-
+<html>
+    <head>
+        <style> body{margin-right: 30%;
+            font-family: sans-serif;
+            background-color:darkkhaki;
+            font-size: 24px;
+            }
+            
+            
+            p1 {color: red}
+        </style>
+    </head>
+    <body> 
+<h1> SQL and Data Science </h1>    
+<h2> SQL</h2>
+<p> SQL is a language that allows storage and edit of data and is also used for data manipulation in a very quick way. </p>    
+    <h2> Inner Join </h2>
+    <p> SQL stores data in tables so that we can use "words" in SQL statements to quickly manipulate it. If, however, we want data from two or three different tables which have similar values, we will need an INNER JOIN phrase. This allows for the SQL to show data that is similar in different tables and give a particular detail additionally from either one of those tables, if we need it. Image below to show more detail: </p>
+        <img src="venn%20diagram%201.bmp">
+    <p> Without using INNER JOIN, we can only get information from either "shoes" table or the "Size" table, but not both. However, if we use INNER JOIN in the following way, we can get all 3 pieces of information: </p>
+    <p1> SELECT Size.Feet Size, shoes.Number of Shoes, Size.Person Name
+    <br>    
+FROM Size
+    <br>    
+INNER JOIN shoes 
+        <br>
+        ON Shoes.Person Name = Size.Person Name; </p1>
+    <p> using the above SQL statement would return us a table with Feet Size, Person Name, and the Number of shoes in a single table. </p>
+        <h2> Data Science </h2>
+    <h3> What is a data Scientist?  </h3>
+    <p> A data scientist is someone who dives into data and makes discoveries. They do this to understand problems, give solutions and evaluate/predict outcomes. A good data scientist would know exactly what relevent questions to ask from their employer to understand the problem and start delving into the data to start going about their opperating procedures. The data scientists do this by visualizing or using and understanding algorithms and making models. However, the whole procedure may be lengthy. </p>
+    <h4> Standard opperating procedures of a data scientist </h4>
+        <p> After discovering a problem, the data scientist would start off by scraping the data and acquiring it. Then, they would prepare it so it can be in a format which can be further "cleaned" and "transformed" (in order to make the data usable), this step takes most of a data scientist's time. Then, exploratory data analysis is done during which the discoveries are actually made with the data and is therefore regarded as the most important step. In this step, a data scientist identifies the variables which might have an effect on the given problem or might be of use in a given situation. These variables are used further in modelling data to make predictions according to changes made in those certain variables. This helps in making better decisions and improving processes. The data scientist then visualizes the findings to help communicate better with the audience, whether it is shareholders in a company or the general audience of a newspaper company. The data scientisst finally keeps check on future data to see if the changes made in decisions are affecting the outcomes as predicted by the model. If not, the model is updated with new data.</p>
+    <h3> Data scientist vs computer scientist </h3>
+    <p> although data scientist and computer scientist in many cases might have overlaping skillsets and abilities, their jobs and purposes are wildly different. <br>
+    Even though both the data scientists and the computer scientists use technology to solve problems, the computer scientists write or improve software to to accomplish tasks more efficiently or to be able to do new things. Whereas, data scientists have more to do with discovery and solving problems through algorithms and visualizations instead, as discussed earlier. Data scientists tend to have more expertise in statistical mathematics contrary to a computer scientist. A data scientist provides solutions to make better decisions whereas a computer scientist would make tools to make the process easier.
+        </p>
+    
+    
+    
+    </body>
+</html>
